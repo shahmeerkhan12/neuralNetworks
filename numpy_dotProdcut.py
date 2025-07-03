@@ -13,5 +13,5 @@ biases = [2,3,1]
 # neurons performs the operations by the dot product(numpy)
 
 # neuron-1
-output1 = np.dot(inputs,np.array(weights).T)+biases[0]
+output1 = np.dot(inputs,np.array(weights).T)+biases
 print(output1)
